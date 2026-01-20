@@ -312,7 +312,7 @@ def adjust_settings(arguments):
     k_regularizer = 0.1
 
     # A-P stretch regularizer: 0.001 seems reasonable by default
-    k_regularizer_sz = 0.001
+    k_regularizer_sz = 0.0005
 
     if fresh:
         print('  Fresh tissue: using small control point spacing and deformation penalties for photos')
